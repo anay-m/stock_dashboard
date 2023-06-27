@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.80a6f6ce.css",
-    "main.js": "/react-gh-pages/static/js/main.cbddc334.js",
-    "static/js/787.bc7d429a.chunk.js": "/react-gh-pages/static/js/787.bc7d429a.chunk.js",
-    "index.html": "/react-gh-pages/index.html",
-    "main.80a6f6ce.css.map": "/react-gh-pages/static/css/main.80a6f6ce.css.map",
-    "main.cbddc334.js.map": "/react-gh-pages/static/js/main.cbddc334.js.map",
-    "787.bc7d429a.chunk.js.map": "/react-gh-pages/static/js/787.bc7d429a.chunk.js.map"
+    "main.css": "/stock_dashboard/static/css/main.80a6f6ce.css",
+    "main.js": "/stock_dashboard/static/js/main.aa80f876.js",
+    "static/js/787.bc7d429a.chunk.js": "/stock_dashboard/static/js/787.bc7d429a.chunk.js",
+    "index.html": "/stock_dashboard/index.html",
+    "main.80a6f6ce.css.map": "/stock_dashboard/static/css/main.80a6f6ce.css.map",
+    "main.aa80f876.js.map": "/stock_dashboard/static/js/main.aa80f876.js.map",
+    "787.bc7d429a.chunk.js.map": "/stock_dashboard/static/js/787.bc7d429a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.80a6f6ce.css",
-    "static/js/main.cbddc334.js"
+    "static/js/main.aa80f876.js"
   ]
 }
