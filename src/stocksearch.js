@@ -140,7 +140,7 @@ function StockSearch() {
         <input
           type="text"
           id="stock-input"
-          placeholder="Enter a stock symbol"
+          placeholder="Enter a stock ticker"
           value={stockInput}
           onChange={handleInputChange}
         />
