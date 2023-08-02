@@ -60,7 +60,7 @@ function StockSearch() {
     // Fetch chart data
     fetchChartData(stockInput)
       .then((data) => {
-        setChartData(data["Time Series (Daily)"]); // Update chart data state with retrieved data
+        setChartData(data["Weekly Adjusted Time Series"]); // Update chart data state with retrieved data
       })
       .catch((error) => {
         console.error('Error:', error);
@@ -82,7 +82,7 @@ function StockSearch() {
 
   const fetchChartData = (stockSymbol) => {
     //fetch stock price data from alphavantage time series API
-    const apiUrl = `https://www.alphavantage.co/query?function=TIME_SERIES_DAILY_ADJUSTED&symbol=${stockSymbol}&apikey=${apiKey}`;
+    const apiUrl = `https://www.alphavantage.co/query?function=TIME_SERIES_WEEKLY_ADJUSTED&symbol=${stockSymbol}&apikey=${apiKey}`;
 
     return fetch(apiUrl)
       .then((response) => {
